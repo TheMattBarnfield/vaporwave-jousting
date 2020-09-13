@@ -8,7 +8,6 @@ public class Ground : MonoBehaviour
     public int size = 200;
 
     public int seed = 0;
-    public Vector2Int position = new Vector2Int(0,0);
     private Mesh mesh;
     private Vector3[] vertices;
     private int[] triangles;
